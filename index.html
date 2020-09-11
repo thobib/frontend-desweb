@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selamat Datang di Website</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/gaya.css">
+	<link rel="shortcut icon" href="gambar/THOBIB.png">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		$("document").ready(function() {
+			$("#profil").click(function() {
+       			$.smoothScroll({ scrollTarget: "#author", });
+     			});
+			});
+	</script>
+</head>
+<body>
+	<div id="heada">
+		<div id="menu">
+			<div class="batas">
+				<nav>
+					<ul>
+						<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="photo.html"><i class="fa fa-book"></i> Portofolio</a></li>
+						<li><a href="#author" id="profil"><i class="fa fa-user"></i> Profil</a></li>
+						<li><a href="#map"><i class="fa fa-phone"></i> Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+			<div class="clear"></div>
+			<button id="prev"><i class="fa fa-angle-left"></i></button>
+			<button id="next"><i class="fa fa-angle-right"></i></button>
+			<div id="datang">
+				<div class="batas">
+					<h1>Selamat Datang <br>di Website Thobib Khoirul Annas</h1>
+					<a href="photo.html">Lihat Photo</a>
+				</div>
+			</div>
+	</div>
+	<div id="author">
+		<div class="batas">
+		<h2>Profil Author</h2>
+			<div class="author-admin">
+				<h3>Thobib Khoirul Annas</h3>
+				<img src="assets/img/speaker-2.png" class="author-img">
+				<p>Founder dan CEO blog Thobib Lab. Dan dia masih menempuh pendidikan di SMK</p>
+				<div id="author-social">
+				<ul>
+					<li><a href="https://plus.google.com/u/0/115558825254918627682" target="blank"><i class="fa fa-google-plus"></i></a></li>
+		            <li><a href="https://www.facebook.com/thobib.annas" target="blank"><i class="fa fa-facebook"></i></a></li>
+		            <li><a href="https://twitter.com/Thie_Khan" target="blank"><i class="fa fa-twitter"></i></a></li>
+		            <li><a href="https://codepen.io/Thobib" target="blank"><i class="fa fa-codepen fa-fw"></i></a></li>
+		         </ul>
+            	</div>
+			</div>
+			<div class="author-admin">
+			<h3>Khoirul Annas</h3>
+				<img src="assets/img/speaker-1.png" class="author-img">
+				<p>Merupakan wakil CEO blog Thobib Lab. Dia bertempat tinggal di kota  ..</p>
+				<div id="author-social">
+					<ul>
+						<li><a href="https://plus.google.com/u/0/115558825254918627682" target="blank"><i class="fa fa-google-plus"></i></a></li>
+			            <li><a href="https://www.facebook.com/thobib.annas" target="blank"><i class="fa fa-facebook"></i></a></li>
+			            <li><a href="https://twitter.com/th0bib" target="blank"><i class="fa fa-twitter"></i></a></li>
+			            <li><a href="https://codepen.io/Thobib" target="blank"><i class="fa fa-codepen fa-fw"></i></a></li>
+		         	</ul>
+            	</div>
+            </div>
+            <div class="author-admin">
+            	<h3>Annas</h3>
+				<img src="assets/img/speaker-4.png" class="author-img">
+				<p>Merupakan gambar yang digunakan untuk mengisi kekosongan </p>
+				<div id="author-social">
+					<ul>
+						<li><a href="https://plus.google.com/u/0/115558825254918627682" target="blank"><i class="fa fa-google-plus"></i></a></li>
+			            <li><a href="https://www.facebook.com/thobib.annas"  target="blank"><i class="fa fa-facebook" ></i></a></li>
+			            <li><a href="https://twitter.com/th0bib" target="blank"><i class="fa fa-twitter"></i></a></li>
+			            <li><a href="https://codepen.io/Thobib" target="blank"><i class="fa fa-codepen fa-fw"></i></a></li>
+		         </ul>
+            	</div>
+            </div>
+		</div>
+	</div>
+   <div id="gabung">
+	<div id="map">
+ 		<div class="batas">
+ 			<div class="kontak">
+ 			<h4>Maps</h4>
+ 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7174049250116!2d110.83064411421314!3d-6.804191595082107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70c4b21821c99d%3A0x2bd4906cbd6c9adf!2sMasjid%20Al-Aqsha%20Menara%20Kudus!5e0!3m2!1sen!2sid!4v1599842669936!5m2!1sen!2sid" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ 			</div>
+ 		</div>
+    </div> 
+	<div id="cf">
+    	<div class="batas">
+    		<div class="kontak">
+    		<h4>Contact Form</h4>
+    		<form>
+    			<input type="text" placeholder="Nama">
+				<input type="text" placeholder="Email">
+				<textarea name="pesan" placeholder="Pesan"></textarea>
+				<input type="submit" name="kirim" value="Kirim">
+    		</form>
+    		</div>
+    	</div>
+    </div>
+   </div>
+   <div id="footer">
+   		Copyright &copy; 2017 <a href="">Thobib Khoirul Annas</a> All Right Reserved
+   </div>
+</body>
+</html>
